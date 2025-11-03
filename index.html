@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ラジアルメニュー</title>
+    <link rel="stylesheet" href="./styles.css"> 
+
+    <style>
+        /* CSSファイルが読み込まれるまでの間に、ブラウザのデフォルトスタイルをリセットするための簡単なスタイルを記述しておくと良いです */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="trigger">メニュー</div>
+        <div class="item item-1">項目A</div>
+        <div class="item item-2">項目B</div>
+        <div class="item item-3">項目C</div>
+    </div>
+    
+</body>
 </html>
